@@ -1,0 +1,9 @@
+[fedora]
+name=OVN test repo
+failovermethod=priority
+#baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/Everything/$basearch/os/
+metalink=https://github.com/numansiddique/plugin2ovn/fed23/
+enabled=1
+gpgcheck=0
+skip_if_unavailable=False
+
